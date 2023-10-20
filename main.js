@@ -1,0 +1,1 @@
+documentquerySelector('.tecla_pom');
