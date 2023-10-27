@@ -8,15 +8,18 @@ document.querySelector('.tecla_pom').onclick = TocaSomPom;
 function tocaSomClap() {
     document.querySelector('#som_tecla_clap').play();
 }
+
 document.querySelector('.tecla_clap').onclick = TocaSomClap;
 
 
 function TocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
 }
+
 document.querySelector('tecla_tim').onclick = TocaSomTim
 
 function TocaSomPuff(){
     document.querySelector('#som_tecla_puff').play();
 }
-document.querySelector('tecla_puff').onclick = TocaSomPuff
+
+document.querySelector('tecla_puff').onclick = TocaSomPuff;
